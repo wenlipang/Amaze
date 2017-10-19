@@ -1,0 +1,74 @@
+@charset 'utf-8';
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  /* =16px */
+}
+.top-bg {
+  background: #f2f1f2;
+}
+.top-bg a {
+  color: #333;
+  display: inline-block;
+  padding: 9px 0;
+}
+.nav-lis {
+  margin-top: 25px;
+}
+.nav-top-lis {
+  position: relative;
+}
+.nav-top-lis button {
+  height: 32px;
+}
+.nav-top-lis .bar-icon {
+  position: absolute;
+  top: 10px;
+  right: 22px;
+}
+.none-img img {
+  height: 200px;
+}
+.news-lis li {
+  border: 0;
+}
+.news-lis a {
+  color: #333333;
+}
+.news-lis a:hover {
+  color: #095f8a;
+}
+.news-lis i {
+  margin-bottom: 3px;
+}
+.area a {
+  color: #333333;
+}
+.area a:hover {
+  color: #095f8a;
+}
+.foot-bg {
+  background: #f2f1f2;
+}
+.foot-bg a {
+  color: #333333;
+}
+.foot-bg a:hover {
+  color: #095f8a;
+}
+.footer-bg {
+  background-color: #323232;
+  color: #959595;
+}
+#foot-nav {
+  position: relative;
+}

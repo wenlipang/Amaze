@@ -1,0 +1,102 @@
+@charset 'utf-8';
+*{
+	margin:0;
+	padding:0;
+}
+body {
+  font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans","wenquanyi micro hei","Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+}
+html {
+  font-size: 62.5%;//10px  1rem = 10px;
+}
+
+body {
+  font-size: 1.6rem; /* =16px */
+}
+
+@c:#333;
+.top-bg{
+	    background: #f2f1f2;		
+	   // height: 37px;
+	    a{
+	    	color:#333;
+	    	display: inline-block;
+	    	padding: 9px 0;
+
+	    }
+}
+.nav-lis{
+	margin-top: 25px;
+}
+.nav-top-lis{
+	position:relative;
+	button{
+		height:32px;
+	}
+
+	.bar-icon{
+		position: absolute;
+		top:10px;
+		right:22px;
+	}
+}
+
+
+// 轮播图
+
+.none-img{
+	img{
+		height: 200px;
+
+	}
+
+}
+
+// 新闻动态
+.news-lis{
+	li{
+		border:0;
+	}
+	a{
+		color:@c;
+
+		&:hover{
+			 color: #095f8a;
+		}
+	}
+	i{
+		margin-bottom: 3px;
+}
+}
+// 极域产品
+.area{	
+		a{
+		color:@c;
+
+		&:hover{
+			 color: #095f8a;
+		}
+	}
+}
+
+// 友情链接
+.foot-bg{
+	 background: #f2f1f2;
+	 a{
+		color:@c;
+
+		&:hover{
+			 color: #095f8a;
+		}
+	}
+}
+// footer 
+.footer-bg{
+	background-color: #323232;
+	color:#959595;
+
+}
+//  只在大屏幕隐藏 的 底部
+#foot-nav{
+	position:relative;
+}
